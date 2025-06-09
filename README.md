@@ -4,18 +4,27 @@
 ## 📌 Overview
 This project analyzes and models the time series of sunspot activity from 1700 to 1988. The goal is to explore trends, clean and visualize the data, and apply statistical models to forecast future sunspot counts.
 
+## 📈 Dataset
+The dataset consists of yearly sunspot counts between 1700 and 1988, commonly used in time series forecasting tasks.
+
+
 ## 📊 Methods Used
-- Time series decomposition (classical and STL)
-- Statistical modeling with SARIMA
+- Time series decomposition
 - Data cleaning and visualization
+- Statistical modeling with SARIMA
 - Forecast evaluation and validation
 
 ## 📁 Project Structure
 ```
 .
 ├── main.ipynb          # Jupyter notebook containing the full analysis
-├── fonctions.py        # Custom helper functions used in the notebook (assumed)
-├── venv/               # Virtual environment (not included in version control)
+
+├── main.pdf          # Jupyter notebook in pdf format
+
+├── sunspot.csv          # dataset 
+
+├── fonctions.py        # Custom helper functions used in the notebook
+
 └── README.md           # Project description
 ```
 
@@ -40,16 +49,13 @@ source venv/bin/activate
 
 ### 3. Install dependencies
 ```bash
-pip install pandas matplotlib numpy statsmodels jupyter
+pip install -r requirements.txt
 ```
 
 ### 4. Launch the notebook
 ```bash
 jupyter notebook main.ipynb
 ```
-
-## 📈 Dataset
-The dataset consists of yearly sunspot counts between 1700 and 1988, commonly used in time series forecasting tasks.
 
 ## 🧠 Author
 Mohammed Ali El Adlouni  
