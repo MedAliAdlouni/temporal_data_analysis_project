@@ -1,2 +1,4 @@
 temporal_data_p
+# ignore pycache files
 __pycache__/
+*.pyc
